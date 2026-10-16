@@ -1,0 +1,14 @@
+{
+  "modelo": "Regresión lineal",
+  "cv_mae": 19723.0,
+  "public_mae": 14183.3,
+  "private_mae": 14180.3,
+  "total_mae": 14181.2,
+  "mejores_parametros": {
+    "func": "<ufunc 'log'>",
+    "inverse_func": "<ufunc 'exp'>",
+    "regressor__pre__num": "Pipeline(steps=[('s', StandardScaler()), ('sp', SplineTransformer())])",
+    "regressor__reg": "Ridge()",
+    "regressor__reg__alpha": "0.01"
+  }
+}

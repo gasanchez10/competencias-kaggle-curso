@@ -1,0 +1,14 @@
+{
+  "modelo": "Red neuronal (MLP)",
+  "cv_mae": 10976.7,
+  "public_mae": 10844.8,
+  "private_mae": 10625.7,
+  "total_mae": 10693.8,
+  "mejores_parametros": {
+    "regressor__mlp__learning_rate_init": "0.001",
+    "regressor__mlp__hidden_layer_sizes": "(128, 64, 32)",
+    "regressor__mlp__batch_size": "32",
+    "regressor__mlp__alpha": "0.01",
+    "regressor__mlp__activation": "relu"
+  }
+}

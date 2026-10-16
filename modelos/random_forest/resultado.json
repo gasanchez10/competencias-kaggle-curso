@@ -1,0 +1,15 @@
+{
+  "modelo": "Random Forest",
+  "cv_mae": 9830.2,
+  "public_mae": 10018.9,
+  "private_mae": 9416.9,
+  "total_mae": 9604.0,
+  "mejores_parametros": {
+    "regressor__rf__n_estimators": "300",
+    "regressor__rf__min_samples_leaf": "1",
+    "regressor__rf__max_features": "0.5",
+    "regressor__rf__max_depth": "None",
+    "inverse_func": "<ufunc 'exp'>",
+    "func": "<ufunc 'log'>"
+  }
+}
