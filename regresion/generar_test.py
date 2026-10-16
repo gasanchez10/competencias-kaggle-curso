@@ -169,7 +169,7 @@ def main():
     cols = [c for c in pd.read_csv(TRAIN, nrows=0).columns if c not in ("Unnamed: 0", TARGET)]
 
     out = args.out
-    out.mkdir(exist_ok=True)
+    out.mkdir(parents=True, exist_ok=True)
     test = new[["id"] + cols]
     test.to_csv(out / "Test real state.csv", index=False)
 

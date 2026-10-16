@@ -6,7 +6,7 @@ nuevo** (test + solución) generado por nosotros, más modelos de referencia par
 | Carpeta | Tarea | Métrica |
 |---|---|---|
 | [regresion/](regresion/) | Precio de departamentos (Daegu) | MAE |
-| clasificacion/ | *(en preparación)* | |
+| [clasificacion/](clasificacion/) | Suscripción a depósito (Bank Marketing) | AUC |
 
 ```bash
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt

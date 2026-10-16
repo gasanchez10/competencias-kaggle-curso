@@ -1,0 +1,14 @@
+{
+  "modelo": "Red neuronal (MLP)",
+  "cv_auc": 0.9258,
+  "public_auc": 0.9278,
+  "private_auc": 0.922,
+  "total_auc": 0.9238,
+  "mejores_parametros": {
+    "mlp__learning_rate_init": "0.001",
+    "mlp__hidden_layer_sizes": "(64, 32)",
+    "mlp__batch_size": "128",
+    "mlp__alpha": "0.1",
+    "mlp__activation": "relu"
+  }
+}

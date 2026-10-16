@@ -1,0 +1,13 @@
+{
+  "modelo": "Regresión logística",
+  "cv_auc": 0.9143,
+  "public_auc": 0.9211,
+  "private_auc": 0.91,
+  "total_auc": 0.9135,
+  "mejores_parametros": {
+    "lr__C": "1",
+    "lr__class_weight": "balanced",
+    "lr__penalty": "l1",
+    "pre__num": "Pipeline(steps=[('s', StandardScaler()), ('sp', SplineTransformer(n_knots=6))])"
+  }
+}

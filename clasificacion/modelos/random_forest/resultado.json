@@ -1,0 +1,14 @@
+{
+  "modelo": "Random Forest",
+  "cv_auc": 0.9278,
+  "public_auc": 0.9302,
+  "private_auc": 0.9235,
+  "total_auc": 0.9255,
+  "mejores_parametros": {
+    "rf__n_estimators": "500",
+    "rf__min_samples_leaf": "1",
+    "rf__max_features": "sqrt",
+    "rf__max_depth": "20",
+    "rf__class_weight": "None"
+  }
+}
