@@ -20,7 +20,7 @@ Diseño del generador
    - e se toma por bootstrap de los residuos out-of-fold (5-fold) del ensamble,
      por complejo, así el ruido tiene la forma real (colas, heterocedasticidad).
 
-Uso:  .venv/bin/python generar_test.py [--n 1767] [--seed 2026] [--public 0.3] [--noise-scale s]
+Uso:  .venv/bin/python regresion/generar_test.py [--n 1767] [--seed 2026] [--public 0.3] [--noise-scale s]
 """
 import argparse
 from pathlib import Path
